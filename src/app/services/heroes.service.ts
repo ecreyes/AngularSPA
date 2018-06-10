@@ -62,11 +62,14 @@ export class HeroesService {
     ];
 
     constructor(){
-        console.log("Se esta ejecutando el servicio");
     }
 
     getHeroes():Heroe[]{
         return this.heroes;
+    }
+    
+    getHeroe(idx:string){
+      return this.heroes[idx];
     }
 }
 
