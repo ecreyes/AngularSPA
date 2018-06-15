@@ -7,6 +7,12 @@ Lo primero es instalar NodeJs para obtener el npm en la cmd de windows, una vez 
 * [TypeScript](https://www.typescriptlang.org/)
 * [Angular-Cli](https://cli.angular.io/)
 
+Tambien hay que mencionar que una vez descargado el proyecto hay que hacer un:
+```shell
+npm install
+```
+para instalar las dependencias del `package.json` y obtener el node_modules.
+
 Cuando ya este todo instalado se puede correr el servidor con:
 ```shell
 ng serve
